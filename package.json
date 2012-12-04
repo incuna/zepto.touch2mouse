@@ -1,0 +1,13 @@
+{
+  "name": "zepto.touch2mouse",
+  "description": "Zepto plugin to map touch events to corresponding mouse events if no touch events are available.",
+  "version": "0.1.0",
+  "dependencies": {
+    "zepto": "*"
+  },
+  "main": "zepto.touch2mouse.js",
+  "jam": {
+    "main": "zepto.touch2mouse.js",
+    "include": ["zepto.touch2mouse.js"]
+  }
+}
