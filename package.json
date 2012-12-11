@@ -8,6 +8,10 @@
   "main": "zepto.touch2mouse.js",
   "jam": {
     "main": "zepto.touch2mouse.js",
-    "include": ["zepto.touch2mouse.js"]
+    "include": ["zepto.touch2mouse.js"],
+    "dependencies": {
+      "zepto": "*"
+    },
+    "shim": { "deps": [ "zepto" ] }
   }
 }
